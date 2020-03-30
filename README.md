@@ -22,7 +22,7 @@ This program is a demonstration of the power of LINQ queries, it will walk you t
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/HCoggers/Lab08-LINQ.git
+$ git clone https://github.com/HCoggers/Lab07-LINQ.git
 ```
 
 ## To run the program from Visual Studio:
