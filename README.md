@@ -11,10 +11,10 @@ This program is a demonstration of the power of LINQ queries, it will walk you t
 
 ## Visual
 ### My output
-![Image 1](./Assets/Console.png)
+![Image 1](./Assets/Console.PNG)
 
 ### My Data
-![Image 2](./Assets/Dataset.png)
+![Image 2](./Assets/Dataset.PNG)
 
 ---
 
