@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab07_LINQ.Classes
+namespace Lab08_LINQ.Classes
 {
     class Feature
     {

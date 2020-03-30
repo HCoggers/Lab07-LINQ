@@ -57,9 +57,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Lab07-LINQ\\Lab07-LINQ\\Lab07-LINQ\\Lab07-LINQ.csproj",
-      "projectName": "Lab07-LINQ",
-      "projectPath": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Lab07-LINQ\\Lab07-LINQ\\Lab07-LINQ\\Lab07-LINQ.csproj",
+      "projectUniqueName": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Lab07-LINQ\\Lab07-LINQ\\Lab07-LINQ\\Lab08-LINQ.csproj",
+      "projectName": "Lab08-LINQ",
+      "projectPath": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Lab07-LINQ\\Lab07-LINQ\\Lab07-LINQ\\Lab08-LINQ.csproj",
       "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Lab07-LINQ\\Lab07-LINQ\\Lab07-LINQ\\obj\\",
       "projectStyle": "PackageReference",

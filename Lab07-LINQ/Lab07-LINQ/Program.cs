@@ -1,12 +1,12 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using Lab07_LINQ.Classes;
+using Lab08_LINQ.Classes;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 
-namespace Lab07_LINQ
+namespace Lab08_LINQ
 {
     class Program
     {
@@ -16,6 +16,11 @@ namespace Lab07_LINQ
             QueryData();
         }
 
+        /// <summary>
+        /// Reads a json file and deserializes it to a RootObject
+        /// </summary>
+        /// <param name="path">path of json file</param>
+        /// <returns>deserialized Json data as a RootObject</returns>
         static RootObject ReadData(string path)
         {
             string jsonData = File.ReadAllText(path);
@@ -23,6 +28,9 @@ namespace Lab07_LINQ
             return deserializedRoot;
         }
 
+        /// <summary>
+        /// Calls various linq queries on a dataset of new york neighborhoods.
+        /// </summary>
         static void QueryData()
         {
             RootObject hoodCollection = ReadData("../../../data.json");
@@ -33,11 +41,15 @@ namespace Lab07_LINQ
             Console.ReadLine();
             QueryNamed(hoodCollection);
 
-            Console.WriteLine("Press enter to see all neighbourhoods without duplicates.");
+            Console.WriteLine("Press enter to see all UNIQUE, named methods.");
             Console.ReadLine();
             QueryNoDupes(hoodCollection);
         }
 
+        /// <summary>
+        /// Writes all neighborhoods in database to console.
+        /// </summary>
+        /// <param name="collection">collection of neighborhood features</param>
         static void QueryAll(RootObject collection)
         {
             Console.Clear();
@@ -55,14 +67,25 @@ namespace Lab07_LINQ
             Console.WriteLine($"Total Neighborhoods: {count}");
         }
 
+        /// <summary>
+        /// Writes all named neighbourhoods to Console. filters empty names out.
+        /// </summary>
+        /// <param name="collection">Collection of neighborhood features</param>
         static void QueryNamed(RootObject collection)
         {
             Console.Clear();
             Console.WriteLine("These are all the named new york neighborhoods: \n(press Enter)");
             Console.ReadLine();
-            var query = from item in collection.features
+
+            // DEAD CODE: 
+            /*var query = from item in collection.features
                         where item.properties.neighborhood != ""
-                        select item.properties.neighborhood;
+                        select item.properties.neighborhood;*/
+
+            // REWRITE USING METHOD SYNTAX
+            var query = collection.features
+                .Where(f => f.properties.neighborhood != "")
+                .Select(f => f.properties.neighborhood);
 
             int count = 0;
             foreach (string hood in query)
@@ -73,6 +96,10 @@ namespace Lab07_LINQ
             Console.WriteLine($"Total Neighborhoods: {count}");
         }
 
+        /// <summary>
+        /// Writes all named neighborhoods to Console, with no duplicates.
+        /// </summary>
+        /// <param name="collection">Collection of neighbourhood features</param>
         static void QueryNoDupes(RootObject collection)
         {
             Console.Clear();
