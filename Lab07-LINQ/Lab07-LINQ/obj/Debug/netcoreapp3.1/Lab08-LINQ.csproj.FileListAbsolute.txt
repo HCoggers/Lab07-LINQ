@@ -1,0 +1,13 @@
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\bin\Debug\netcoreapp3.1\Lab08-LINQ.exe
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\bin\Debug\netcoreapp3.1\Lab08-LINQ.deps.json
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\bin\Debug\netcoreapp3.1\Lab08-LINQ.runtimeconfig.json
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\bin\Debug\netcoreapp3.1\Lab08-LINQ.runtimeconfig.dev.json
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\bin\Debug\netcoreapp3.1\Lab08-LINQ.dll
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\bin\Debug\netcoreapp3.1\Lab08-LINQ.pdb
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\obj\Debug\netcoreapp3.1\Lab08-LINQ.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\obj\Debug\netcoreapp3.1\Lab08-LINQ.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\obj\Debug\netcoreapp3.1\Lab08-LINQ.AssemblyInfo.cs
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\obj\Debug\netcoreapp3.1\Lab08-LINQ.csproj.CopyComplete
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\obj\Debug\netcoreapp3.1\Lab08-LINQ.dll
+C:\Users\harry\Desktop\code\week1-dotnet\Lab07-LINQ\Lab07-LINQ\Lab07-LINQ\obj\Debug\netcoreapp3.1\Lab08-LINQ.pdb
